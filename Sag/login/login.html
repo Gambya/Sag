@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--codificação da página--><html lang="pt-br">
+<!--tipo de linguagem que será desenvolvidada a página-->
+<head>
+<!--Contém informações para sistemas de buscas, descrições do site e etc-->
+<meta charset="utf-8">
+<!--tipo de codificação referente a acentuações, principalmente-->
+<title>Login</title>
+<!--Texto que será exibido na parte superior do navegador-->
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  
+ 
+    <style type="text/css">
+         form {width: 600px; margin: 400px auto; padding: 10px; }
+
+
+    </style>
+
+
+  </head>
+
+  <body>
+
+
+<form method ="post" action="login.php" class="form-horizontal">
+  <div class="control-group">
+    <label class="control-label" for="inputEmail">Usuário</label>
+    <div class="controls">
+      <input type="text" name="usuario" id="inputEmail" placeholder="usuário">
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label" for="inputPassword">Senha</label>
+    <div class="controls">
+      <input type="password" name="senha" id="inputPassword" placeholder="Senha">
+    </div>
+  </div>
+  <div class="control-group">
+    <div class="controls">
+      <label class="checkbox">
+        <input type="checkbox"> Lembre-se de mim
+      </label>
+      <button type="submit" class="btn">Entrar</button>
+    </div>
+  </div>
+</form>
+   <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
